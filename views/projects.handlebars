@@ -1,0 +1,52 @@
+ {{!-- <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div> --}}
+
+    <!-- Meny (kommer att visas när hamburgermenyn är öppen) -->
+     {{!-- <div class="menu">
+        <ul>
+            <li><a href="/about">About me</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="mailto:danielliden2@hotmail.com">Contact</a></li>
+        </ul>
+    </div> --}}
+
+
+
+<div class="page-container">
+
+ <div class="sidebar-container">
+    <a id="logo-link" href="/">
+        <img id="side-logo" src="/img/dlLogoWhiteText.svg" alt="">
+    </a>
+        <a class="side-menu-item" href="/about">ABOUT ME</a>
+        <a class="side-menu-item" href="/skills">SKILLS</a>
+        <a class="side-menu-item" id="selected" href="/projects">PROJECTS</a>
+        <a class="side-menu-item" href="/contact">CONTACT</a>
+    </div>
+
+
+
+<div class="page-content">
+
+<div class="page-top">
+    <h1>PROJECTS</h1>
+</div>
+
+<div class="page-content-container page-projects-container">
+    
+    {{#each projects}}
+    <div class="project-box">
+      <a href="/projects/{{id}}">
+        <img src="{{coverImage}}" id="project-box-image" alt="{{title}}" />
+        <h3>{{title}}</h3>
+      </a>
+    </div>
+  {{/each}}
+
+</div>
+</div>
+</div>

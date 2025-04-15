@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-3.0",
+  "version": "1.0.0",
+  "description": "Portfolio v3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Portfolio",
+    "Daniel"
+  ],
+  "author": "DL",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

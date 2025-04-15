@@ -1,0 +1,17 @@
+[
+    {
+      "id": "project-1",
+      "title": "ol App",
+      "coverImage": "/img/covers/cover1.png"
+    },
+    {
+        "id": "project-2",
+        "title": "Cool App",
+        "coverImage": "/img/covers/cover2.png"
+      },
+      {
+        "id": "project-3",
+        "title": "Cool App",
+        "coverImage": "/img/covers/cover3.png"
+      }
+  ]
